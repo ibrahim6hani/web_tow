@@ -28,6 +28,7 @@ header{
 }
 .logo img{
     width: 50px;
+    margin-left: 30px;
 }
 .navigation a{
 color: white;
@@ -54,15 +55,16 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url(./img/54.jpg) no-repeat;
+    background: url(./img/صور/54.jpg) no-repeat;
     background-size:cover;
     background-attachment: fixed;/* علشان اثبت الصورة*/
 }
 .main h2{
-    color: white;
+    color: rgb(15, 15, 15);
     font-size: 25px;
     font-weight: 500px;
     margin-bottom: 15px;
+    position: relative;
 }
 .main h2 span{
     display: inline-block;
@@ -286,6 +288,10 @@ padding: 0 60px 0 0;
 @media(max-width:641px){
     body{
         font-size: 12px;
+    }
+    .logo img{
+        padding-left: 30px;
+        
     }
     .main-content h2{
         font-size: 0.8em;
